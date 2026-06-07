@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-transport-canada-hos-mcp",
+    "description": "Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-transport-canada-hos-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_canada_hos_south_60th",
+      "check_canada_hos_north_60th",
+      "check_eld_canada_mandate",
+      "check_cycle_switch",
+      "check_nsc_carrier_safety",
+      "audit_cross_border_us_canada",
+      "prepare_carrier_audit_pack"
+    ]
+  }
+}

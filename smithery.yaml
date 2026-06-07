@@ -1,0 +1,32 @@
+name: meok-transport-canada-hos-mcp
+description: 'Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-transport-canada-hos-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_canada_hos_south_60th
+  description: check canada hos south 60th
+- name: check_canada_hos_north_60th
+  description: check canada hos north 60th
+- name: check_eld_canada_mandate
+  description: check eld canada mandate
+- name: check_cycle_switch
+  description: check cycle switch
+- name: check_nsc_carrier_safety
+  description: check nsc carrier safety
+- name: audit_cross_border_us_canada
+  description: audit cross border us canada
+- name: prepare_carrier_audit_pack
+  description: prepare carrier audit pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

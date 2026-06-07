@@ -1,0 +1,23 @@
+# meok-transport-canada-hos-mcp
+
+> Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT audit prep. South-of-60 / North-of-60 / cycle-switch / cross-border CA-US callable compliance toolkit. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_canada_hos_south_60th
+- check_canada_hos_north_60th
+- check_eld_canada_mandate
+- check_cycle_switch
+- check_nsc_carrier_safety
+- audit_cross_border_us_canada
+- prepare_carrier_audit_pack
+
+## Install
+```
+pip install meok-transport-canada-hos-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-transport-canada-hos-mcp/
+- Docs: https://meok.ai

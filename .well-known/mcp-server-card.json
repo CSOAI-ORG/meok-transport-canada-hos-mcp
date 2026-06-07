@@ -1,0 +1,34 @@
+{
+  "name": "meok-transport-canada-hos-mcp",
+  "title": "Meok Transport Canada Hos Mcp",
+  "description": "Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT audit prep. South-of-60 / North-of-60 / cycle-switch / cross-border CA-US callable compliance toolkit. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_canada_hos_south_60th"
+    },
+    {
+      "name": "check_canada_hos_north_60th"
+    },
+    {
+      "name": "check_eld_canada_mandate"
+    },
+    {
+      "name": "check_cycle_switch"
+    },
+    {
+      "name": "check_nsc_carrier_safety"
+    },
+    {
+      "name": "audit_cross_border_us_canada"
+    },
+    {
+      "name": "prepare_carrier_audit_pack"
+    }
+  ]
+}

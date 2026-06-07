@@ -1,0 +1,86 @@
+{
+  "name": "meok-transport-canada-hos-mcp",
+  "description": "Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT",
+  "url": "https://proofof.ai/scorecard/meok-transport-canada-hos-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_canada_hos_south_60th",
+      "name": "Check Canada Hos South 60Th",
+      "description": "check_canada_hos_south_60th via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_canada_hos_north_60th",
+      "name": "Check Canada Hos North 60Th",
+      "description": "check_canada_hos_north_60th via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eld_canada_mandate",
+      "name": "Check Eld Canada Mandate",
+      "description": "check_eld_canada_mandate via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cycle_switch",
+      "name": "Check Cycle Switch",
+      "description": "check_cycle_switch via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_nsc_carrier_safety",
+      "name": "Check Nsc Carrier Safety",
+      "description": "check_nsc_carrier_safety via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_cross_border_us_canada",
+      "name": "Audit Cross Border Us Canada",
+      "description": "audit_cross_border_us_canada via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_carrier_audit_pack",
+      "name": "Prepare Carrier Audit Pack",
+      "description": "prepare_carrier_audit_pack via meok-transport-canada-hos-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
