@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-transport-canada-hos-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-transport-canada-hos-mcp"
+      ]
+    }
+  }
+}
