@@ -1,0 +1,151 @@
+{
+  "name": "Meok Transport Canada Hos Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-transport-canada-hos-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Canadian Hours of Service (SOR/2005-313) + NSC Standard 9 + ELD mandate (T-T-019) + Provincial MoT audit prep. South-of-60 / North-of-60 / cycle-switch / cross-border CA-US callable compliance toolkit. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_canada_hos_south_60th",
+      "name": "Check Canada Hos South 60Th",
+      "description": "Check Canada Hos South 60Th — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_canada_hos_north_60th",
+      "name": "Check Canada Hos North 60Th",
+      "description": "Check Canada Hos North 60Th — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eld_canada_mandate",
+      "name": "Check Eld Canada Mandate",
+      "description": "Check Eld Canada Mandate — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_cycle_switch",
+      "name": "Check Cycle Switch",
+      "description": "Check Cycle Switch — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_nsc_carrier_safety",
+      "name": "Check Nsc Carrier Safety",
+      "description": "Check Nsc Carrier Safety — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_cross_border_us_canada",
+      "name": "Audit Cross Border Us Canada",
+      "description": "Audit Cross Border Us Canada — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_carrier_audit_pack",
+      "name": "Prepare Carrier Audit Pack",
+      "description": "Prepare Carrier Audit Pack — a tool of the meok-transport-canada-hos-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-transport-canada-hos-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
